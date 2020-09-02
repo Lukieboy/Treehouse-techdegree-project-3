@@ -21,31 +21,45 @@
         <hr class="thin">
         <div class="flex container-1">
 
-        <h2 class="contact">Contact Information</h2></br>
+        <h2 class="contact">Contact Information</h2>
 
-            <label for="user-name">Full name</label>
-            <input type="text" id="user-name" placeholder="Required">
+            <div class="flex-pair">
+                <label for="user-name">Full name</label>
+                <input type="text" id="user-name" placeholder="Required" name="user-name">
+            </div>
 
-            <label for="user-email">Email Adress</label>
-            <input type="text" id="user-email" placeholder="Required">
+            <div class="flex-pair">
+                <label for="user-email">Email Adress</label>
+                <input type="email" id="user-email"  name="user-email" placeholder="Required">
+            </div>
 
-            <label for="user-phone">Phone Number</label>
-            <input type="tel" id="user-phone">
+            <div class="flex-pair">
+                <label for="user-phone">Phone Number</label>
+                <input type="tel" id="user-phone" name="user-phone">
+            </div>  
 
-            <label for="user-adress">Street Adress</label>
-            <input type="text" id="user-adress">
+            <div class="flex-pair">
+                <label for="user-adress">Street Adress</label>
+                <input type="text" id="user-adress" name="user-adress">
+            </div>
 
-            <label for="user-city">City</label>
-            <input type="text" id="user-city">
+            <div class="flex-pair">
+                <label for="user-city">City</label>
+                <input type="text" id="user-city" name="user-city">
+            </div>
 
-            <label for="users-state">State</label>
-            <select id="state" name="users-state">
-                <option value="state">State1</option>
-            </select>
 
-            <label for="user-zip">Zip Code</label>
-            <input type="text" id="user-zip">
-
+            <div class="flex-pair">
+                <label for="users-state">State</label>
+                <select id="state" name="users-state">
+                    <option value="state">State1</option>
+                </select>
+            </div>
+            
+            <div class="flex-pair">         
+                <label for="user-zip">Zip Code</label>
+                <input type="text" id="user-zip" name="user-zip">
+            </div>   
     </div>
     <hr>
 
@@ -54,34 +68,37 @@
     <p>Select the newsletters you would like to receive</p>
 
     <form>
-        <input type="checkbox" id="user-newsletter">
+        <input type="checkbox" id="user-newsletter1" name="user-newsletter1">
         <label for="user-newsletter">HTML News</label><br>
 
 
-        <input type="checkbox" id="user-newsletter">
+        <input type="checkbox" id="user-newsletter2" name="user-newsletter2">
         <label for="user-newsletter">CSS News</label><br>
 
 
-        <input type="checkbox" id="user-newsletter">
+        <input type="checkbox" id="user-newsletter3" name="user-newsletter3">
         <label for="user-newsletter">Javascript News</label>
     </form>
+    </div>
 
 
     <p>Newsletter Format</p>
 
+    <form>
+        <input type="radio" id="user-news-format1" name="user-news-format" class="inline">
+        <label for="user-news-format">HTML</label><br>
 
-    <input type="radio" id="user-news-format" name="user-news-format" class="inline">
-    <label for="user-news-format">HTML</label><br>
+        <input type="radio" id="user-news-format2" name="user-news-format">
+        <label for="user-news-format">Plain text</label><br>
 
-    <input type="radio" id="user-news-format" name="user-news-format">
-    <label for="user-news-format">Plain text</label><br>
+        <div class="container-3 flex">
+            <label for="user-topics">Other topics you'd like to hear about</label>
+            <textarea  name="user-topics" id="user-topics"></textarea>
+            <input type="submit" value="Sign Up">
+            <p class="copyright">Copyright The Code Review</p>
+        </div>
+    </form>
 
-    <div class="container-3 flex">
-    <label for="user-topics">Other topics you'd like to hear about</label>
-    <textarea  name="user-topics" id="user-topics"></textarea>
-    <input type="submit" value="Sign Up">
-    <p class="copyright">Copyright The Code Review</p>
-    </div>
 
 </body>
 </html>
