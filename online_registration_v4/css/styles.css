@@ -129,7 +129,7 @@ input[type="submit"]{
   background-color: rgb(54, 136, 67);
   padding: 20px 0 20px 0;
   margin: 30px 0 20px 0;
-  border-radius: 10px;
+  border-radius: 6px;
   color:white;
   border: rgb(54, 136, 67);
 }
@@ -267,18 +267,39 @@ input{
 }
 
 
+.container-1 input:hover{
+  background-color: rgb(243, 237, 237);
+  border: black 0.5px solid;
+}
 
 
+select:hover{
+  background-color: rgb(243, 237, 237);
+  border: black 0.5px solid;
+}
 
 
+fieldset{
+  background-color:rgb(255, 253, 253);
+  border-top: 50px rgb(255, 253, 253) solid;
+  border-bottom: 50px rgb(255, 253, 253) solid;
+}
 
 
+body{
+  background-color: rgb(236, 236, 236);
+}
 
+hr{
+  margin: 0;
+  border: black solid 2px;
+}
 
-
-
-
-
+input[type="submit"]{
+  text-align:center;
+  font-size: 18px;
+  background-color:rgb(91, 163, 165);
+}
 
 
 
