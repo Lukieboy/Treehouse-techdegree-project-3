@@ -254,7 +254,6 @@ form{
 
 
 ::placeholder{
-
   text-align: right;
 }
 
@@ -263,6 +262,9 @@ form{
 box-sizing: border-box;
 }
 
+input{
+  text-align: left;
+}
 
 
 
