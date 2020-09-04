@@ -302,6 +302,21 @@ input[type="submit"]{
 }
 
 
+.btn,
+input,
+select{
+  font-size: 15px;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.btn:hover,
+input:hover,
+select:hover {
+  opacity: 1
+}
+
+
 
 
 
